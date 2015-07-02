@@ -15,6 +15,18 @@
 		BE8B37DC1B202EDB0066C386 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8B37DB1B202EDB0066C386 /* Images.xcassets */; };
 		BE8B37DF1B202EDB0066C386 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8B37DD1B202EDB0066C386 /* LaunchScreen.xib */; };
 		BE8B37EB1B202EDB0066C386 /* CommunityBondTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B37EA1B202EDB0066C386 /* CommunityBondTests.m */; };
+		BE8B37F61B202F760066C386 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B37F51B202F760066C386 /* LoginViewController.m */; };
+		BE8B37F91B204C650066C386 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B37F81B204C650066C386 /* SignupViewController.m */; };
+		BE8B37FC1B2072050066C386 /* MyChannelListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B37FB1B2072050066C386 /* MyChannelListViewController.m */; };
+		BE8B38031B207F240066C386 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE8B38001B207F240066C386 /* Lato-Bold.ttf */; };
+		BE8B38041B207F240066C386 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE8B38011B207F240066C386 /* Lato-Light.ttf */; };
+		BE8B38051B207F240066C386 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE8B38021B207F240066C386 /* Lato-Regular.ttf */; };
+		BEB9B5FD1B21AC21001F95E9 /* rightMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB9B5FC1B21AC21001F95E9 /* rightMenu.xib */; };
+		BEB9B6001B21B095001F95E9 /* RightMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB9B5FF1B21B095001F95E9 /* RightMenu.m */; };
+		BEC6F41E1B26A69000289BDA /* CrimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC6F41D1B26A69000289BDA /* CrimeTableViewCell.m */; };
+		BECCFB9A1B257283007DE197 /* LeftMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BECCFB991B257283007DE197 /* LeftMenu.xib */; };
+		BECCFB9D1B258E02007DE197 /* LeftMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BECCFB9C1B258E02007DE197 /* LeftMenu.m */; };
+		BECCFBA01B25B163007DE197 /* Security&CrimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BECCFB9F1B25B163007DE197 /* Security&CrimeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +54,25 @@
 		BE8B37E41B202EDB0066C386 /* CommunityBondTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommunityBondTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8B37E91B202EDB0066C386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE8B37EA1B202EDB0066C386 /* CommunityBondTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommunityBondTests.m; sourceTree = "<group>"; };
+		BE8B37F41B202F760066C386 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BE8B37F51B202F760066C386 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BE8B37F71B204C650066C386 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		BE8B37F81B204C650066C386 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		BE8B37FA1B2072050066C386 /* MyChannelListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyChannelListViewController.h; sourceTree = "<group>"; };
+		BE8B37FB1B2072050066C386 /* MyChannelListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyChannelListViewController.m; sourceTree = "<group>"; };
+		BE8B38001B207F240066C386 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "../../CommunityB/Fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		BE8B38011B207F240066C386 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "../../CommunityB/Fonts/Lato-Light.ttf"; sourceTree = "<group>"; };
+		BE8B38021B207F240066C386 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "../../CommunityB/Fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		BEB9B5FC1B21AC21001F95E9 /* rightMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = rightMenu.xib; sourceTree = "<group>"; };
+		BEB9B5FE1B21B095001F95E9 /* RightMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMenu.h; sourceTree = "<group>"; };
+		BEB9B5FF1B21B095001F95E9 /* RightMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMenu.m; sourceTree = "<group>"; };
+		BEC6F41C1B26A69000289BDA /* CrimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrimeTableViewCell.h; sourceTree = "<group>"; };
+		BEC6F41D1B26A69000289BDA /* CrimeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrimeTableViewCell.m; sourceTree = "<group>"; };
+		BECCFB991B257283007DE197 /* LeftMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftMenu.xib; sourceTree = "<group>"; };
+		BECCFB9B1B258E02007DE197 /* LeftMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenu.h; sourceTree = "<group>"; };
+		BECCFB9C1B258E02007DE197 /* LeftMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenu.m; sourceTree = "<group>"; };
+		BECCFB9E1B25B163007DE197 /* Security&CrimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Security&CrimeViewController.h"; sourceTree = "<group>"; };
+		BECCFB9F1B25B163007DE197 /* Security&CrimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Security&CrimeViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +114,7 @@
 		BE8B37CA1B202EDA0066C386 /* CommunityBond */ = {
 			isa = PBXGroup;
 			children = (
+				BE8B37FD1B207EE30066C386 /* Fonts */,
 				BE8B37CF1B202EDA0066C386 /* AppDelegate.h */,
 				BE8B37D01B202EDA0066C386 /* AppDelegate.m */,
 				BE8B37D51B202EDA0066C386 /* ViewController.h */,
@@ -92,6 +124,22 @@
 				BE8B37DD1B202EDB0066C386 /* LaunchScreen.xib */,
 				BE8B37D21B202EDA0066C386 /* CommunityBond.xcdatamodeld */,
 				BE8B37CB1B202EDA0066C386 /* Supporting Files */,
+				BE8B37F41B202F760066C386 /* LoginViewController.h */,
+				BE8B37F51B202F760066C386 /* LoginViewController.m */,
+				BE8B37F71B204C650066C386 /* SignupViewController.h */,
+				BE8B37F81B204C650066C386 /* SignupViewController.m */,
+				BE8B37FA1B2072050066C386 /* MyChannelListViewController.h */,
+				BE8B37FB1B2072050066C386 /* MyChannelListViewController.m */,
+				BEB9B5FC1B21AC21001F95E9 /* rightMenu.xib */,
+				BEB9B5FE1B21B095001F95E9 /* RightMenu.h */,
+				BEB9B5FF1B21B095001F95E9 /* RightMenu.m */,
+				BECCFB991B257283007DE197 /* LeftMenu.xib */,
+				BECCFB9B1B258E02007DE197 /* LeftMenu.h */,
+				BECCFB9C1B258E02007DE197 /* LeftMenu.m */,
+				BECCFB9E1B25B163007DE197 /* Security&CrimeViewController.h */,
+				BECCFB9F1B25B163007DE197 /* Security&CrimeViewController.m */,
+				BEC6F41C1B26A69000289BDA /* CrimeTableViewCell.h */,
+				BEC6F41D1B26A69000289BDA /* CrimeTableViewCell.m */,
 			);
 			path = CommunityBond;
 			sourceTree = "<group>";
@@ -120,6 +168,16 @@
 				BE8B37E91B202EDB0066C386 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE8B37FD1B207EE30066C386 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BE8B38001B207F240066C386 /* Lato-Bold.ttf */,
+				BE8B38011B207F240066C386 /* Lato-Light.ttf */,
+				BE8B38021B207F240066C386 /* Lato-Regular.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +260,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8B38041B207F240066C386 /* Lato-Light.ttf in Resources */,
+				BE8B38051B207F240066C386 /* Lato-Regular.ttf in Resources */,
+				BEB9B5FD1B21AC21001F95E9 /* rightMenu.xib in Resources */,
 				BE8B37DA1B202EDB0066C386 /* Main.storyboard in Resources */,
 				BE8B37DF1B202EDB0066C386 /* LaunchScreen.xib in Resources */,
+				BECCFB9A1B257283007DE197 /* LeftMenu.xib in Resources */,
 				BE8B37DC1B202EDB0066C386 /* Images.xcassets in Resources */,
+				BE8B38031B207F240066C386 /* Lato-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +285,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB9B6001B21B095001F95E9 /* RightMenu.m in Sources */,
+				BE8B37F91B204C650066C386 /* SignupViewController.m in Sources */,
 				BE8B37D41B202EDA0066C386 /* CommunityBond.xcdatamodeld in Sources */,
+				BE8B37FC1B2072050066C386 /* MyChannelListViewController.m in Sources */,
+				BECCFBA01B25B163007DE197 /* Security&CrimeViewController.m in Sources */,
 				BE8B37D11B202EDA0066C386 /* AppDelegate.m in Sources */,
+				BEC6F41E1B26A69000289BDA /* CrimeTableViewCell.m in Sources */,
 				BE8B37D71B202EDA0066C386 /* ViewController.m in Sources */,
 				BE8B37CE1B202EDA0066C386 /* main.m in Sources */,
+				BE8B37F61B202F760066C386 /* LoginViewController.m in Sources */,
+				BECCFB9D1B258E02007DE197 /* LeftMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +490,7 @@
 				BE8B37F01B202EDB0066C386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE8B37F11B202EDB0066C386 /* Build configuration list for PBXNativeTarget "CommunityBondTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +499,7 @@
 				BE8B37F31B202EDB0066C386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
