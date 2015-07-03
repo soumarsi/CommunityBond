@@ -18,9 +18,9 @@
 		BE8B37F61B202F760066C386 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B37F51B202F760066C386 /* LoginViewController.m */; };
 		BE8B37F91B204C650066C386 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B37F81B204C650066C386 /* SignupViewController.m */; };
 		BE8B37FC1B2072050066C386 /* MyChannelListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8B37FB1B2072050066C386 /* MyChannelListViewController.m */; };
-		BE8B38031B207F240066C386 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE8B38001B207F240066C386 /* Lato-Bold.ttf */; };
-		BE8B38041B207F240066C386 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE8B38011B207F240066C386 /* Lato-Light.ttf */; };
-		BE8B38051B207F240066C386 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE8B38021B207F240066C386 /* Lato-Regular.ttf */; };
+		BEADB57D1B450FD600FF0780 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEADB57A1B450FD600FF0780 /* Lato-Bold.ttf */; };
+		BEADB57E1B450FD600FF0780 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEADB57B1B450FD600FF0780 /* Lato-Light.ttf */; };
+		BEADB57F1B450FD600FF0780 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEADB57C1B450FD600FF0780 /* Lato-Regular.ttf */; };
 		BEB9B5FD1B21AC21001F95E9 /* rightMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB9B5FC1B21AC21001F95E9 /* rightMenu.xib */; };
 		BEB9B6001B21B095001F95E9 /* RightMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB9B5FF1B21B095001F95E9 /* RightMenu.m */; };
 		BEC6F41E1B26A69000289BDA /* CrimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC6F41D1B26A69000289BDA /* CrimeTableViewCell.m */; };
@@ -60,9 +60,9 @@
 		BE8B37F81B204C650066C386 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
 		BE8B37FA1B2072050066C386 /* MyChannelListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyChannelListViewController.h; sourceTree = "<group>"; };
 		BE8B37FB1B2072050066C386 /* MyChannelListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyChannelListViewController.m; sourceTree = "<group>"; };
-		BE8B38001B207F240066C386 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "../../CommunityB/Fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
-		BE8B38011B207F240066C386 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "../../CommunityB/Fonts/Lato-Light.ttf"; sourceTree = "<group>"; };
-		BE8B38021B207F240066C386 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "../../CommunityB/Fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		BEADB57A1B450FD600FF0780 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		BEADB57B1B450FD600FF0780 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		BEADB57C1B450FD600FF0780 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		BEB9B5FC1B21AC21001F95E9 /* rightMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = rightMenu.xib; sourceTree = "<group>"; };
 		BEB9B5FE1B21B095001F95E9 /* RightMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMenu.h; sourceTree = "<group>"; };
 		BEB9B5FF1B21B095001F95E9 /* RightMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMenu.m; sourceTree = "<group>"; };
@@ -173,9 +173,9 @@
 		BE8B37FD1B207EE30066C386 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				BE8B38001B207F240066C386 /* Lato-Bold.ttf */,
-				BE8B38011B207F240066C386 /* Lato-Light.ttf */,
-				BE8B38021B207F240066C386 /* Lato-Regular.ttf */,
+				BEADB57A1B450FD600FF0780 /* Lato-Bold.ttf */,
+				BEADB57B1B450FD600FF0780 /* Lato-Light.ttf */,
+				BEADB57C1B450FD600FF0780 /* Lato-Regular.ttf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -260,14 +260,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE8B38041B207F240066C386 /* Lato-Light.ttf in Resources */,
-				BE8B38051B207F240066C386 /* Lato-Regular.ttf in Resources */,
 				BEB9B5FD1B21AC21001F95E9 /* rightMenu.xib in Resources */,
+				BEADB57D1B450FD600FF0780 /* Lato-Bold.ttf in Resources */,
 				BE8B37DA1B202EDB0066C386 /* Main.storyboard in Resources */,
+				BEADB57F1B450FD600FF0780 /* Lato-Regular.ttf in Resources */,
 				BE8B37DF1B202EDB0066C386 /* LaunchScreen.xib in Resources */,
 				BECCFB9A1B257283007DE197 /* LeftMenu.xib in Resources */,
 				BE8B37DC1B202EDB0066C386 /* Images.xcassets in Resources */,
-				BE8B38031B207F240066C386 /* Lato-Bold.ttf in Resources */,
+				BEADB57E1B450FD600FF0780 /* Lato-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
